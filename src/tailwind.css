@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer component {
+  .router-link-active {
+    @apply font-semibold text-blue-500;
+  }
+}
+
+@font-face {
+  font-family: StarJedi, serif;
+  src: url(../public/font/StarJedi.woff);
+}
